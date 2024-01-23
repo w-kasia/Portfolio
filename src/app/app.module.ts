@@ -11,6 +11,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CvComponent } from './cv/cv.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectsComponent,
     SkillsComponent,
     NavigationComponent,
-    ContactComponent
+    ContactComponent,
+    CvComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
