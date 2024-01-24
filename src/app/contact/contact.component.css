@@ -48,6 +48,11 @@ form {
   display: flex;
 }
 
+.listOfSm a {
+  text-decoration: none;
+  color: var(--pink-color);
+}
+
 .link {
   width: 200px;
   padding: 10px;
@@ -55,7 +60,6 @@ form {
   display: flex;
   align-items: center;
   border: 2px solid var(--pink-color);
-  color: var(--pink-color);
   list-style: none;
   font-size: 15px;
   font-weight: bold;
