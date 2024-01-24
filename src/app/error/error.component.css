@@ -1,4 +1,33 @@
+.errorSection {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .errorImage {
-  max-width: 300px;
+  width: 400px;
+  max-width: 100%;
   filter: invert(100%) sepia(2%) saturate(6253%) hue-rotate(318deg) brightness(103%) contrast(101%);
+}
+
+.errorMessage {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.goHomeBtn {
+  width: 200px;
+  max-width: 100%;
+  border: none;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 }
