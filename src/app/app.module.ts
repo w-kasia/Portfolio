@@ -15,6 +15,7 @@ import { CvComponent } from './cv/cv.component';
 import { ErrorComponent } from './error/error.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './material/material.module';
+import { StrengthsComponent } from './strengths/strengths.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MaterialModule } from './material/material.module';
     ContactComponent,
     CvComponent,
     ErrorComponent,
-    routingComponents
+    routingComponents,
+    StrengthsComponent
   ],
   imports: [
     BrowserModule,
