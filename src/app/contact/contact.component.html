@@ -5,26 +5,28 @@
 
 <div class="contactSection">
   <div class="contactContainer">
+    <h1 class=cotactHeading>Contact Me</h1>
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-    <mat-form-field class="custom-form-field">
+    <mat-form-field class="custom-form-field" appearance="outline">
       <mat-label>Name</mat-label>
-      <input class="form-control" matInput type="text" id="name" formControlName="name" required>
+      <input class="form-control" matInput type="text" id="name" formControlName="name" placeholder="Name" required>
     </mat-form-field>
-    <mat-form-field>
+    <mat-form-field class="custom-form-field" appearance="outline">
       <mat-label>Email address</mat-label>
-      <input class="form-control" matInput type="email" id="email" formControlName="email" required>
+      <input class="form-control" matInput type="email" id="email" formControlName="email" placeholder="Email" required>
     </mat-form-field>
-    <mat-form-field>
+    <mat-form-field class="custom-form-field" appearance="outline">
       <mat-label>Message</mat-label>
-      <textarea class="form-control" type="text" id="message" formControlName="message" required matInput></textarea>
+      <textarea class="form-control" type="text" id="message" formControlName="message" required placeholder="Message" matInput></textarea>
     </mat-form-field>
-    <button class="submitBtn" type="submit" [disabled]="!contactForm" mat-fab color="accent" aria-label="Submit button">Send
+    <button class="submitBtn" type="submit" [disabled]="!contactForm.valid" aria-label="Submit button">Send
     </button>
   </form>
   <div class="smSection">
     <ul class="listOfSm">
-     <li class="link"><a href="https://www.linkedin.com/in/katarzyna-waszczuk-4176201b0/" target="_blank"><img class="icon" src="assets/images/li.png" alt="Logo of Linkedin">Linkedin<img class="icon" src="assets/images/next.png" alt=""></a></li>
-     <li class="link"><a href="https://github.com/w-kasia" target="_blank"><img class="icon" src="assets/images/github.png" alt="Logo of Github">Github<img class="icon" src="assets/images/next.png" alt=""></a></li>
+     <li class="link"><a href="https://www.linkedin.com/in/katarzyna-waszczuk-4176201b0/" target="_blank"><img class="icon" src="assets/images/li.png" alt="Logo of Linkedin">Linkedin<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
+     <li class="link"><a href="https://github.com/w-kasia" target="_blank"><img class="icon" src="assets/images/github.png" alt="Logo of Github">Github<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
+     <li class="link"><a href="mailto:kwaszczuk.contact@gmail.com" target="_blank"><img class="icon" src="assets/images/gmail.png" alt="Logo of Gmail">E-mail<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
     </ul>
    </div>
   </div>

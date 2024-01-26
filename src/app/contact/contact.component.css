@@ -14,6 +14,13 @@
 } */
 
 
+.cotactHeading {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: var(--pink-color);
+}
 
 .contactSection {
   max-width: 100vw;
@@ -21,7 +28,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
 
 .contactContainer {
@@ -44,9 +50,12 @@ form {
   width: 500px;
 }
 
+
 .listOfSm {
   display: flex;
-}
+  /* align-items: center;
+  justify-content: center; */
+} 
 
 .listOfSm a {
   text-decoration: none;
@@ -56,7 +65,6 @@ form {
 .link {
   width: 200px;
   padding: 10px;
-  margin-right: 40px;
   display: flex;
   align-items: center;
   border: 2px solid var(--pink-color);
@@ -66,8 +74,32 @@ form {
   text-transform: uppercase;
 }
 
+.link:first-child,
+.link:nth-child(2) {
+  margin-right: 20px;  
+}
+
+
 .icon {
   filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
-  width: 18px;
+  width: 20px;
   margin-right: 8px;
+}
+
+/* .direction {
+  margin-left: 40px;
+} */
+
+
+.submitBtn {
+  padding: 15px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  background-color: var(--pink-color);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 }

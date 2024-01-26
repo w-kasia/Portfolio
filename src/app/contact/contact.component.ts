@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Firestore } from '@angular/fire/firestore';
+import { addDoc, collection } from 'firebase/firestore';
 
 @Component({
   selector: 'app-contact',
@@ -18,7 +20,22 @@ export class ContactComponent implements OnInit{
     });
   }
 
-  onSubmit() {
-    console.log('submitted')
+  firestore: Firestore = inject(Firestore);
+
+  saveData(): void {
+    const acollection = collection(this.firestore, 'message');
+  
+    addDoc(acollection, {
+      'name': this.contactForm.value.name,
+      'email': this.contactForm.value.email,
+      'message': this.contactForm.value.message
+    })
   }
+
+  onSubmit() {
+    console.log('submitted');
+    this.saveData();
+    this.contactForm.reset();
+  }
+
 }
