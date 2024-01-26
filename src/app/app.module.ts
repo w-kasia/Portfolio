@@ -16,6 +16,18 @@ import { ErrorComponent } from './error/error.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './material/material.module';
 import { StrengthsComponent } from './strengths/strengths.component';
+import { provideFirebaseApp, initializeApp } from '@angular/fire/app';           
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyC4jzGUXXB9IvPncdlXc4YxWTAsBZnVT68",
+  authDomain: "portfolio-40ee0.firebaseapp.com",
+  databaseURL: "https://portfolio-40ee0-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "portfolio-40ee0",
+  storageBucket: "portfolio-40ee0.appspot.com",
+  messagingSenderId: "678432282919",
+  appId: "1:678432282919:web:7e8dd49be8150afedf7102"
+};
 
 @NgModule({
   declarations: [
@@ -33,6 +45,8 @@ import { StrengthsComponent } from './strengths/strengths.component';
     StrengthsComponent
   ],
   imports: [
+    provideFirebaseApp(() => initializeApp(firebaseConfig)),
+    provideFirestore(() => getFirestore()),
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
