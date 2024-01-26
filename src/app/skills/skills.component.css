@@ -107,10 +107,11 @@ img:nth-child(12) {
 }
 
 .skillsIconsContainer {
+  padding-top: 30px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   justify-content: center;
-  gap: 80px
+  gap: 40px
 }
 
 .skillsHeading {
@@ -120,14 +121,14 @@ img:nth-child(12) {
 
 img {
   width: 70px;
-  animation: moveUpDown 6s infinite linear;
+  /* animation: moveUpDown 6s infinite linear; */
 }
 
-@keyframes moveUpDown {
+/* @keyframes moveUpDown {
   0% {
     transform: translateY(0);
   }
   100% {
     transform: translateY(15px);
     }
-}
+} */
