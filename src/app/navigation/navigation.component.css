@@ -4,11 +4,14 @@
 
 .mat-toolbar{
   margin-top: 20px;
-  background-color: transparent;
+  background-color: var(--black-color);
   color: var(--white-color);
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: fixed;
+top: 0;
+z-index: 9999;
 }
 
 /* .mat-button{
