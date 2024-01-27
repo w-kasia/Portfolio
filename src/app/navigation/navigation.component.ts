@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
 
+  // @HostListener('window:scroll', ['$event'])
+
+  // onWindowScroll() {
+  //   let element = document.querySelector('.menuItemsContainer') as HTMLElement;
+  //   if (window.pageYOffset > element.clientHeight) {
+  //     element.classList.add('menuItemsContainer-inverse');
+  //   } else {
+  //     element.classList.remove('menuItemsContainer-inverse');
+  //   }
+  // }
 }
