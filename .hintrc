@@ -3,10 +3,12 @@
     "development"
   ],
   "hints": {
-    "axe/name-role-value": [
+    "axe/name-role-value": "off",
+    "disown-opener": "off",
+    "axe/keyboard": [
       "default",
       {
-        "button-name": "off"
+        "nested-interactive": "off"
       }
     ]
   }

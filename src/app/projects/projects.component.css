@@ -24,7 +24,7 @@ font-size: 80px;
 }
 
 .projectContainer {
-  
+
   border-top: 1px solid var(--white-color);
   padding-top: 30px;
   padding-bottom: 30px;
@@ -52,7 +52,7 @@ font-size: 80px;
   margin-right: 100px;
 }
 
-img {
+.previewImage {
   width: 230px;
 height: 300px;
   opacity: 0;
@@ -84,6 +84,7 @@ height: 300px;
   color: var(--white-color);
 }
 
+
 .title {
   font-size: 28px;
   font-weight: bold;
@@ -100,4 +101,16 @@ height: 300px;
   padding: 15px;
   color: var(--white-color);
   font-size: 15px;
+  cursor: pointer;
 }
+/* .linkContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.websiteIcon {
+  margin-right: 6px;
+  width: 20px;
+  color: var(--pink-color);
+} */

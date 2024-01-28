@@ -1,4 +1,4 @@
-h1 {
+.homeHeading {
   /* min-height: 100vh; */
   /* display: flex;
   align-items: center;
@@ -12,9 +12,10 @@ text-transform: uppercase;
 /* z-index: 9999; */
 }
 
-span {
-  z-index: 0;
-  color: var(--color-pink);
+
+
+.homeHeading span {
+  color: var(--pink-color);
 }
 
 .homeBackground {

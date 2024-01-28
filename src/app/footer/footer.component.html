@@ -1,1 +1,26 @@
-<p>footer works!</p>
+<footer class="footer">
+  <div class="footerSection">
+
+    <div class="socialMediaContainer">
+      <h1 class="footerHeading">Find me</h1>
+        <a class="link" href="https://www.linkedin.com/in/katarzyna-waszczuk-4176201b0/" target="_blank"><img class="icon" src="assets/images/li.png" alt="Logo of Linkedin">Linkedin</a>
+     <a class="link" href="https://github.com/w-kasia" target="_blank">
+        <img class="icon" src="assets/images/github.png" alt="Logo of Github">Github</a>
+
+
+    </div>
+    <div class="contactContainer">
+      <h2 class="footerHeading">Contact</h2>
+      <button class="btn" (click)="goToContact()">Contact Form</button>
+      <p><a class="emailLink" href="mailto:kwaszczuk.contact@gmail.com">kwaszczuk.contact@gmail.com</a></p>
+    </div>
+    <div class="pagesContainer">
+      <h3 class="footerHeading">Check it</h3>
+      <button class="btn" (click)="goToAbout()">About</button>
+      <button class="btn" (click)="goToProjects()">Projects</button>
+    </div>
+  </div>
+
+    <p class="copy">&copy; Katarzyna Waszczuk, 2024</p>
+
+</footer>
