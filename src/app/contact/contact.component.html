@@ -1,8 +1,10 @@
 <!-- <div class="contactSection">
   <h1 class="contactHeading">Get in touch</h1>
 </div> -->
+<div class="navigationContainer">
+  <app-navigation></app-navigation>
+</div>
 
-<app-navigation></app-navigation>
 <div class="contactSection">
   <div class="contactContainer">
     <h1 class=cotactHeading>Contact Me</h1>
@@ -19,17 +21,18 @@
       <mat-label>Message</mat-label>
       <textarea class="form-control" type="text" id="message" formControlName="message" required placeholder="Message" matInput></textarea>
     </mat-form-field>
-    <button class="submitBtn" type="submit" [disabled]="!contactForm.valid" aria-label="Submit button">Send
+    <button class="submitBtn" type="submit" [disabled]="!contactForm.valid" aria-label="Submit button" (click)="openDialog('0ms', '0ms')">Send
     </button>
   </form>
   <div class="smSection">
     <ul class="listOfSm">
-     <li class="link"><a href="https://www.linkedin.com/in/katarzyna-waszczuk-4176201b0/" target="_blank"><img class="icon" src="assets/images/li.png" alt="Logo of Linkedin">Linkedin<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
-     <li class="link"><a href="https://github.com/w-kasia" target="_blank"><img class="icon" src="assets/images/github.png" alt="Logo of Github">Github<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
-     <li class="link"><a href="mailto:kwaszczuk.contact@gmail.com" target="_blank"><img class="icon" src="assets/images/gmail.png" alt="Logo of Gmail">E-mail<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
+     <li class="link"><a class="smLink" href="https://www.linkedin.com/in/katarzyna-waszczuk-4176201b0/" target="_blank"><img class="icon" src="assets/images/li.png" alt="Logo of Linkedin">Linkedin<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
+     <li class="link"><a class="smLink" href="https://github.com/w-kasia" target="_blank"><img class="icon" src="assets/images/github.png" alt="Logo of Github">Github<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
+     <li class="link"><a class="smLink" href="mailto:kwaszczuk.contact@gmail.com" target="_blank"><img class="icon" src="assets/images/gmail.png" alt="Logo of Gmail">E-mail<img class="icon direction" src="assets/images/next.png" alt=""></a></li>
     </ul>
    </div>
   </div>
 </div>
+
 
 <app-footer></app-footer>

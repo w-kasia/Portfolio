@@ -16,6 +16,7 @@ import { MaterialModule } from './material/material.module';
 import { StrengthsComponent } from './strengths/strengths.component';
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { DialogAnimationsComponent } from './dialog-animations/dialog-animations.component';
 
 const firebaseConfig = {
   apiKey: "AIzaSyC4jzGUXXB9IvPncdlXc4YxWTAsBZnVT68",
@@ -39,7 +40,8 @@ const firebaseConfig = {
     ContactComponent,
     ErrorComponent,
     routingComponents,
-    StrengthsComponent
+    StrengthsComponent,
+    DialogAnimationsComponent
   ],
   imports: [
     provideFirebaseApp(() => initializeApp(firebaseConfig)),

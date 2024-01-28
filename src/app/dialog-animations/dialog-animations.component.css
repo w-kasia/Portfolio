@@ -1,0 +1,9 @@
+.confirmBtn {
+  max-width: 60px;
+  margin-right: 8px;
+}
+
+.dialogContainer {
+  max-width: 500px;
+  min-height: 70px;
+}
