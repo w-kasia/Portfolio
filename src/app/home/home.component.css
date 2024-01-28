@@ -28,7 +28,7 @@ text-transform: uppercase;
 img {
   width: 600px;
   position: absolute;
-  z-index: 9999;
+  z-index: 1;
 }
 
 
