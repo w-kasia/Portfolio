@@ -2,7 +2,8 @@
   --black-color: #0a0a0a;
   --pink-color: #ff1493;
   --white-color: #fffff0;
-  --ff-primary: 'Jost';
+  /* --ff-primary: 'Jost'; */
+  --ff-primary: 'Inter';
 }
 
 * {
@@ -18,4 +19,8 @@ body {
   font-family: var(--ff-primary);
 }
 
+::selection {
+  background-color: var(--pink-color);
+  color: var(--white-color);
+}
 
