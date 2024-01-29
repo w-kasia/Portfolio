@@ -4,6 +4,7 @@
   --white-color: #fffff0;
   /* --ff-primary: 'Jost'; */
   --ff-primary: 'Inter';
+  --ff-secondary: 'Dawning of a New Day';
 }
 
 * {
@@ -14,8 +15,8 @@
 
 body {
   min-height: 100vh;
-  color: var(--white-color);
   background-color: var(--black-color);
+  color: var(--white-color);
   font-family: var(--ff-primary);
 }
 
@@ -24,3 +25,6 @@ body {
   color: var(--white-color);
 }
 
+.navigationContainer {
+  min-height: 15vh;
+}

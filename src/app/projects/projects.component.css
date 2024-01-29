@@ -1,14 +1,3 @@
-.projectsHeading {
-font-weight: bold;
-text-transform: uppercase;
-color: var(--white-color);
-font-size: 80px;
-}
-
-.projectsHeading span{
- color: var(--pink-color);
-}
-
 .projectsSection {
   max-width: 100vw;
   min-height: 100vh;
@@ -18,82 +7,34 @@ font-size: 80px;
   flex-direction: column;
 }
 
+.projectsHeading {
+  color: var(--white-color);
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.projectsHeading span{
+ color: var(--pink-color);
+}
+
 .projectsContainer {
   width: 80vw;
   margin-top: 50px;
 }
 
 .projectContainer {
-
-  border-top: 1px solid var(--white-color);
+  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
+  border-top: 1px solid var(--white-color);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: relative;
 }
 
 .projectContainer:nth-child(3) {
   border-bottom: 1px solid var(--white-color);
-}
-
-.number {
-  font-size: 25px;
-  font-weight: bold;
-  color: var(--pink-color);
-  /* margin-right: 50px; */
-}
-
-.description {
-  display: flex;
-  flex-direction: column;
-  width: 580px;
-  margin-right: 100px;
-}
-
-.previewImage {
-  width: 230px;
-height: 300px;
-  opacity: 0;
-  position: absolute;
-  top: -30px;
-  right: 70px;
-  z-index: 1;
-  margin-right: 100px;
-}
-
-.baczynskiImg {
-  top: -22px;
-}
-
-.restaurantImg {
-  width: 300px;
-height: 380px;
-right: 38px;
-top: -70px;
-}
-
-.portfolioImg {
-  width: 330px;
-height: 400px;
-top: -90px;
-right: 38px;
-}
-
-
-.projectContainer:hover img{
-  opacity: 1;
-}
-
-.projectContainer:hover .number{
-  color: var(--white-color);
-}
-
-
-.projectContainer:hover .learnMoreBtn{
-  color: var(--black-color);
-  background-color: var(--white-color);
 }
 
 .projectContainer:hover {
@@ -102,33 +43,76 @@ right: 38px;
   color: var(--white-color);
 }
 
+.projectContainer:hover img {
+  opacity: 1;
+}
+
+.projectContainer:hover .number {
+  color: var(--white-color);
+}
+
+.projectContainer:hover .learnMoreBtn {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.number {
+  color: var(--pink-color);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.descriptionContainer {
+  width: 580px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
 
 .title {
-  font-size: 28px;
-  font-weight: bold;
   padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .summary {
   font-size: 16px;
 }
 
+.previewImage {
+  position: absolute;
+  top: -30px;
+  right: 70px;
+  width: 230px;
+  height: 300px;
+  margin-right: 100px;
+  opacity: 0;
+  z-index: 1;
+}
+
+.baczynskiImg {
+  top: -22px;
+}
+
+.restaurantImg {
+  width: 300px;
+  height: 380px;
+  top: -70px;
+  right: 38px;
+}
+
+.portfolioImg {
+  width: 330px;
+  height: 400px;
+  top: -90px;
+  right: 38px;
+}
+
 .learnMoreBtn {
-  background-color: transparent;
-  border: 2px solid var(--pink-color);
   padding: 15px;
+  border: 2px solid var(--pink-color);
+  background-color: transparent;
   color: var(--white-color);
   font-size: 15px;
   cursor: pointer;
 }
-/* .linkContainer {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-}
-
-.websiteIcon {
-  margin-right: 6px;
-  width: 20px;
-  color: var(--pink-color);
-} */

@@ -1,73 +1,72 @@
 .strengthsSection {
   max-width: 100vw;
   min-height: 100vh;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-bottom: 30px;
-
 }
 
 .strengthsHeading {
-  font-size: 80px;
-  font-weight: 900;
   margin-bottom: 30px;
+  font-size: 80px;
+  font-family: var(--ff-primary);
+  font-weight: 900;
   text-transform: uppercase;
-  font-family: var(--ff-secondary);
 }
 
 .strengthsHeading span {
-color: var(--pink-color);
+  color: var(--pink-color);
 }
 
 .strengthsContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   justify-content: center;
-  gap: 20px
 }
 
 .strengthContainer {
-  background-color: #060606;
   width: 400px;
   max-width: 100%;
   height: 340px;
+  padding: 15px;
+  border: 1px solid rgb(201, 198, 198);
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 15px;
-  border: 1px solid rgb(201, 198, 198);
-  border-radius: 10px;
-  /* box-shadow: var(--pink-color) 0px 30px 60px -20px, var(--pink-color) 0px 20px 40px -30px; */
+  background-color: #060606;
+}
+
+.strengthContainer:hover {
+  box-shadow: var(--pink-color) 0px 30px 60px -20px, var(--pink-color) 0px 20px 40px -30px;
 }
 
 .strengthContainer:first-child,
 .strengthContainer:nth-child(3) {
   margin-top: 60px;
-  /* box-shadow: var(--pink-color) 0px 50px 100px -20px, var(--pink-color) 0px 30px 60px -30px; */
 }
 
 .strengthContainer:nth-child(5) {
   margin-top: -60px;
-  /* box-shadow: var(--pink-color) 0px 50px 100px -20px, var(--pink-color) 0px 30px 60px -30px; */
 }
-
 
 .icon {
   width: 65px;
-  filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
   padding-bottom: 15px;
+  filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
 }
 
 .title {
-  font-size: 28px;
   padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .description {
-  font-size: 16px;
   text-align: center;
+  font-size: 15px;
 }
-

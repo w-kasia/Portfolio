@@ -7,9 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./error.component.css']
 })
 export class ErrorComponent {
-
-  constructor(private router: Router) {}
   
+  constructor(private router: Router) {}
+
   goHome() {
     this.router.navigate(['/home']);
   }

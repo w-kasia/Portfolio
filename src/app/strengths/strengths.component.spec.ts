@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { StrengthsComponent } from './strengths.component';
 
 describe('StrengthsComponent', () => {

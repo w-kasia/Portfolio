@@ -1,7 +1,3 @@
-.navigationContainer {
-  min-height: 15vh;
-}
-
 .contactSection {
   max-width: 100vw;
   min-height: 100vh;
@@ -84,10 +80,9 @@ form {
   align-items: center;
 }
 
-.icon
- {
-  width: 20px;
-  margin-right: 12px;
+.icon {
+  width: 18px;
+  margin-right: 10px;
   margin-left: 10px;
   filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
 }
