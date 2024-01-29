@@ -48,7 +48,7 @@ font-size: 80px;
 .description {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 580px;
   margin-right: 100px;
 }
 
@@ -61,6 +61,24 @@ height: 300px;
   right: 70px;
   z-index: 1;
   margin-right: 100px;
+}
+
+.baczynskiImg {
+  top: -22px;
+}
+
+.restaurantImg {
+  width: 300px;
+height: 380px;
+right: 38px;
+top: -70px;
+}
+
+.portfolioImg {
+  width: 330px;
+height: 400px;
+top: -90px;
+right: 38px;
 }
 
 

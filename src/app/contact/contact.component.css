@@ -1,46 +1,33 @@
-/* .contactSection {
-  max-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contactHeading {
-  font-size: 220px;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 200px;
-} */
-
-
-.cotactHeading {
-  font-size: 50px;
-  font-weight: 900;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  color: var(--pink-color);
+.navigationContainer {
+  min-height: 15vh;
 }
 
 .contactSection {
-
   max-width: 100vw;
   min-height: 100vh;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .contactContainer {
   width: 90vw;
   min-height: 90vh;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-radius: 20px;
   background-color: var(--white-color);
+}
+
+.cotactHeading {
+  margin-bottom: 30px;
+  color: var(--pink-color);
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 form {
@@ -52,67 +39,58 @@ form {
   width: 500px;
 }
 
-
-.listOfSm {
+.listOfLinks {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
-}
-
-.listOfSm a {
-  text-decoration: none;
-  color: var(--pink-color);
-}
-
-
-.link:hover .smLink {
-  color: var(--white-color);
 }
 
 .link {
+  color: var(--pink-color);
+  text-decoration: none;
+}
+
+.listItem {
   width: 200px;
   padding: 10px;
+  border: 2px solid var(--pink-color);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid var(--pink-color);
   list-style: none;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
-
 }
 
-
-.link:first-child,
-.link:nth-child(2) {
+.listItem:first-child,
+.listItem:nth-child(2) {
   margin-right: 20px;
 }
 
-.link:hover {
+.listItem:hover {
   background-color: var(--pink-color);
+  color: var(--white-color);
 }
 
-.smLink {
-  display: flex;
-  align-items: center;
-
-}
-.icon {
-  filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
-  width: 20px;
-  margin-right: 12px;
-
+.listItem:hover .link{
+  color: var(--white-color);
 }
 
-.link:hover .icon {
+.listItem:hover .icon {
   filter: invert(89%) sepia(2%) saturate(1681%) hue-rotate(350deg) brightness(112%) contrast(102%);
 }
 
-.direction {
-  margin-left: 10px;
+.link {
+  display: flex;
+  align-items: center;
 }
 
+.icon
+ {
+  width: 20px;
+  margin-right: 12px;
+  margin-left: 10px;
+  filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
+}
 
 .submitBtn {
   padding: 15px;
@@ -126,9 +104,3 @@ form {
   text-transform: uppercase;
   cursor: pointer;
 }
-
-.navigationContainer {
-  min-height: 15vh;
-}
-
-
