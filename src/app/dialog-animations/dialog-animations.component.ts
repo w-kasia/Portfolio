@@ -7,5 +7,6 @@ import { MatDialogRef } from '@angular/material/dialog';
   styleUrls: ['./dialog-animations.component.css']
 })
 export class DialogAnimationsComponent {
+  
   constructor(public dialogRef: MatDialogRef<DialogAnimationsComponent>) {}
 }
