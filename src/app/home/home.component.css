@@ -3,11 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .homeHeading {
-  position: absolute;
-  top: 30%;
   font-size: 190px;
   font-weight: 900;
   font-family: var(--ff-primary);
@@ -18,11 +17,15 @@
 .backgroundImg {
   width: 600px;
   position: absolute;
-  z-index: 1;
+  top: 21.5%;
 }
 
 .homeHeading span {
   color: var(--pink-color);
+}
+
+h2 {
+  z-index: 9999;
 }
 
 .contactSection {
@@ -63,25 +66,5 @@
 .contactBtn:hover {
   background-color: var(--white-color);
   color: var(--pink-color);
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.marquee {
-  position: relative;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.marquee p {
-  display: inline-block;
-  font-size: 30px;
-  animation: marquee 20s linear infinite;
+  transition: all 0.8s ease;
 }

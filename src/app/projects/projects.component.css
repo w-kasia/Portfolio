@@ -46,13 +46,17 @@
   border-radius: 10px;
   background-color: var(--pink-color);
   color: var(--white-color);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .projectContainer:hover + .projectContainer {
   border-top: none;
 }
 
-.projectContainer:hover img {
+.projectContainer:hover .previewImage {
   opacity: 1;
 }
 
