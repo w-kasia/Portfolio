@@ -65,6 +65,7 @@ form {
 .listItem:hover {
   background-color: var(--pink-color);
   color: var(--white-color);
+  transition: all 1s ease;
 }
 
 .listItem:hover .link{

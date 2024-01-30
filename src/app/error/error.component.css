@@ -16,6 +16,7 @@
 .errorMessage {
   margin-top: 20px;
   font-size: 50px;
+  text-align: center;
 }
 
 .goHomeBtn {
@@ -30,4 +31,60 @@
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .errorImage {
+    width: 200px;
+  }
+  .errorMessage {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .goHomeBtn {
+    width: 150px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .errorImage {
+    width: 250px;
+  }
+  .errorMessage {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .goHomeBtn {
+    width: 200px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .errorImage {
+    width: 300px;
+  }
+  .errorMessage {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+  .goHomeBtn {
+    width: 200px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+  .errorImage {
+    width: 350px;
+  }
+  .errorMessage {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .goHomeBtn {
+    width: 200px;
+    font-size: 16px;
+  }
 }
