@@ -37,10 +37,19 @@
   border-bottom: 1px solid var(--white-color);
 }
 
+.projectContainer:nth-child(3):hover {
+  border-bottom: none;
+}
+
 .projectContainer:hover {
+  border-top: none;
   border-radius: 10px;
   background-color: var(--pink-color);
   color: var(--white-color);
+}
+
+.projectContainer:hover + .projectContainer {
+  border-top: none;
 }
 
 .projectContainer:hover img {
@@ -102,10 +111,9 @@
 }
 
 .portfolioImg {
-  width: 330px;
-  height: 400px;
-  top: -90px;
-  right: 38px;
+  width: 220px;
+  height: 300px;
+  top: -61px;
 }
 
 .learnMoreBtn {

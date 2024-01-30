@@ -1,5 +1,5 @@
 <div class="navigationContainer">
-  <app-navigation></app-navigation>
+  <app-navigation *ngIf="!showInHome"></app-navigation>
 </div>
 
 <div class="projectsSection">
@@ -35,10 +35,10 @@
           I incorporated some unique features and functionalities into that project, such as interactive elements, smooth animations, and a responsive design that adapts to different devices.<br>
           To build my portfolio, I utilized various technologies and tools, including Angular, TypeScript, HTML, CSS, Angular Material, Firebase.</p>
       </div>
-      <img class="previewImage portfolioImg" src="assets/images/portrait-3.png" alt="">
+      <img class="previewImage portfolioImg" src="assets/images/portrait3.png" alt="">
       <button class="learnMoreBtn">Learn more</button>
     </div>
   </div>
 </div>
 
-<app-footer></app-footer>
+<app-footer *ngIf="!showInHome"></app-footer>
