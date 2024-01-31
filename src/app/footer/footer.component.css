@@ -66,3 +66,104 @@ footer {
   padding-bottom: 15px;
   margin-top: auto;
 }
+
+@media (max-width: 320px) {
+  footer {
+    min-height: 20vh;
+  }
+  .footerSection {
+    width: 90vw;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .footerHeading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .link {
+    margin-bottom: 10px;
+  }
+  .icon {
+    width: 18px;
+  }
+  .link,
+  .emailLink {
+    font-size: 13px;
+  }
+  .goToPageBtn {
+    font-size: 13px;
+  }
+  .copy {
+    padding-bottom: 13px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 321px) and (max-width: 600px) {
+  footer {
+    min-height: 25vh;
+  }
+  .footerSection {
+    width: 90vw;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .footerHeading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .link {
+    margin-bottom: 10px;
+  }
+  .icon {
+    width: 20px;
+  }
+  .link,
+  .emailLink {
+    font-size: 15px;
+  }
+  .goToPageBtn {
+    font-size: 15px;
+  }
+  .copy {
+    padding-bottom: 13px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 602px) and (max-width: 670px) {
+  footer {
+    min-height: 15vh;
+  }
+  .footerSection {
+    width: 90vw;
+    padding-top: 20px;
+  }
+  .footerHeading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .link {
+    margin-bottom: 10px;
+  }
+  .icon {
+    width: 20px;
+  }
+  .link,
+  .emailLink {
+    font-size: 15px;
+  }
+  .goToPageBtn {
+    font-size: 15px;
+  }
+  .copy {
+    padding-bottom: 13px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 840px) {
+  footer {
+    min-height: 25vh;
+  }
+}
