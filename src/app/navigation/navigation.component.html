@@ -26,3 +26,21 @@
       </button>
     </div>
   </mat-toolbar>
+
+  <!--Hamburger Menu for small devices-->
+
+  <mat-toolbar class="hamburgerMenu">
+    <span>Katarzyna Waszczuk</span>
+    <span class="spacer"></span>
+    <button mat-icon-button [matMenuTriggerFor]="menu" class="hamburgerIcon" aria-label="Icon of hamburger menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <mat-menu #menu="matMenu" class="mat-menu-panel">
+    <button mat-menu-item class="menuBtn" routerLink="/home">Home</button>
+    <button mat-menu-item class="menuBtn" routerLink="/about">About</button>
+    <button mat-menu-item class="menuBtn" routerLink="/projects">Projects</button>
+    <button mat-menu-item class="menuBtn" routerLink="/contact">Contact</button>
+    <button mat-menu-item class="menuBtn"><a class="CVdownload" href="assets/Waszczuk_Katarzyna-CV.pdf" download>CV</a></button>
+  </mat-menu>

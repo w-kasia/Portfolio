@@ -61,3 +61,33 @@ button {
 .cvIcon {
   width: 40px;
 }
+
+.hamburgerMenu {
+  display: none;
+  position: relative;
+}
+
+.hamburgerIcon {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.menuBtn {
+  color: var(--black-color);
+}
+
+.CVdownload {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+
+@media (max-width: 900px) {
+  .mat-toolbar{
+    display: none;
+  }
+  .hamburgerMenu {
+    display: block;
+  }
+}
