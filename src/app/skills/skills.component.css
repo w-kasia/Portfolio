@@ -34,3 +34,53 @@ img {
     transform: translateY(15px);
     }
 } */
+
+
+@media (max-width: 320px) {
+  .skillsContainer {
+    min-height: 20vh;
+  }
+  .skillsHeading {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .skillsIconsContainer {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  img {
+    width: 40px;
+  }
+}
+
+@media (min-width: 321px)  and (max-width: 480px) {
+  .skillsContainer {
+    min-height: 40vh;
+  }
+  .skillsHeading {
+    font-size: 38px;
+  }
+  .skillsIconsContainer {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  img {
+    width: 50px;
+  }
+}
+
+@media (min-width: 481px)  and (max-width: 777px) {
+  .skillsContainer {
+    min-height: 60vh;
+  }
+  .skillsHeading {
+    font-size: 50px;
+  }
+  .skillsIconsContainer {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  img {
+    width: 65px;
+  }
+}
