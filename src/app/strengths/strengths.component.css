@@ -81,7 +81,7 @@
   .strengthsHeading {
     margin-bottom: 15px;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 500;
   }
   .strengthsContainer {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -110,7 +110,6 @@
 
 @media (min-width: 321px) and (max-width: 480px) {
   .strengthsHeading {
-    /* margin-bottom: 15px; */
     font-size: 38px;
     font-weight: 800;
   }
