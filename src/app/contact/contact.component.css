@@ -100,3 +100,123 @@ form {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media (max-width: 400px) {
+  .contactSection {
+    min-height: 70vh;
+    margin-bottom: 30px;
+  }
+  .contactContainer {
+    min-height: 70vh;
+    padding: 15px;
+  }
+  .cotactHeading {
+    font-size: 25px;
+  }
+  .custom-form-field {
+    width: 250px;
+    font-size: 12px;
+  }
+  .listOfLinks {
+    flex-direction: column;
+  }
+  .listItem {
+    width: 150px;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .listItem:first-child,
+  .listItem:nth-child(2) {
+    margin-right: 0px;
+  }
+  .icon {
+    width: 12px;
+    margin-right: 5px;
+  }
+  .submitBtn {
+    font-size: 13px;
+  }
+}
+@media (min-width: 401px) and (max-width: 480px) {
+  .contactSection {
+    min-height: 80vh;
+    margin-bottom: 30px;
+  }
+  .contactContainer {
+    min-height: 70vh;
+  }
+  .cotactHeading {
+    font-size: 25px;
+  }
+  .custom-form-field {
+    width: 300px;
+    font-size: 14px;
+  }
+  .listOfLinks {
+    flex-direction: column;
+  }
+  .listItem {
+    width: 200px;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .listItem:first-child,
+  .listItem:nth-child(2) {
+    margin-right: 0px;
+  }
+  .icon {
+    width: 12px;
+    margin-right: 5px;
+  }
+  .submitBtn {
+    font-size: 13px;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px) {
+  .contactSection {
+    min-height: 80vh;
+    margin-bottom: 30px;
+  }
+  .contactContainer {
+    min-height: 70vh;
+    padding: 20px;
+  }
+  .cotactHeading {
+    font-size: 25px;
+  }
+  .custom-form-field {
+    width: 400px;
+    font-size: 15px;
+  }
+  .listOfLinks {
+    flex-direction: column;
+  }
+  .listItem {
+    width: 200px;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+  .listItem:first-child,
+  .listItem:nth-child(2) {
+    margin-right: 0px;
+  }
+  .icon {
+    width: 14px;
+    margin-right: 5px;
+  }
+  .submitBtn {
+    font-size: 14px;
+  }
+}
+@media (min-width: 601px) and (max-width: 750px) {
+  .listOfLinks {
+    flex-direction: column;
+  }
+  .listItem {
+    margin-bottom: 10px;
+  }
+  .listItem:first-child,
+  .listItem:nth-child(2) {
+    margin-right: 0px;
+  }
+}
