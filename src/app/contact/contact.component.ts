@@ -45,7 +45,7 @@ export class ContactComponent implements OnInit{
 
   openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
     this.dialog.open(DialogAnimationsComponent, {
-      width: '250px',
+      width: '500px',
       enterAnimationDuration,
       exitAnimationDuration,
     })
