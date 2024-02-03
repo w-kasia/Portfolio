@@ -1,9 +1,12 @@
 .homeBackgroundSection {
   min-height: 100vh;
+  margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  box-shadow: 0px 15px 10px -15px var(--pink-color);   
+  position: relative;
 }
 
 .homeHeading {
@@ -15,9 +18,11 @@
 }
 
 .backgroundImg {
-  width: 600px;
   position: absolute;
-  top: 21.5%;
+  overflow: hidden;
+  bottom: 0;
+  /* top: 21.5%; */
+  width: 700px;
 }
 
 .homeHeading span {
