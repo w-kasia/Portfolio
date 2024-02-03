@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 0px 15px 10px -15px var(--pink-color);   
+  box-shadow: 0px 15px 10px -15px var(--pink-color);
   position: relative;
 }
 
@@ -19,10 +19,9 @@
 
 .backgroundImg {
   position: absolute;
-  overflow: hidden;
   bottom: 0;
-  /* top: 21.5%; */
-  width: 700px;
+  max-width: 700px;
+  overflow: hidden;
 }
 
 .homeHeading span {
@@ -75,10 +74,22 @@ h2 {
 }
 
 @media (max-width: 320px) {
+  .homeBackgroundSection {
+  min-height: 30vh;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 0px 0px;
+  }
+  .homeHeading {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  }
+  .backgroundImg {
+    display: none;
+  }
   .contactHeading {
     margin-bottom: 20px;
     font-size: 50px;
-    font-weight: 900;
     line-height: 50px;
   }
   .contactSection {
@@ -91,11 +102,23 @@ h2 {
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  .contactHeading {
-    margin-bottom: 20px;
-    font-size: 60px;
+  .homeBackgroundSection {
+    min-height: 40vh;
+    margin-bottom: 60px;
+
+  }
+  .homeHeading {
+    font-size: 50px;
     font-weight: 900;
     line-height: 50px;
+  }
+  .backgroundImg {
+    width: 300px;
+  }
+  .contactHeading {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
   }
   .contactSection {
     min-height: 30vh;
@@ -107,21 +130,17 @@ h2 {
   }
 }
 @media (min-width: 481px) and (max-width: 600px) {
-  .contactHeading {
-    margin-bottom: 20px;
-    font-size: 80px;
+  .homeBackgroundSection {
+    min-height: 50vh;
+    margin-bottom: 60px;
+  }
+  .homeHeading {
+    font-size: 70px;
     line-height: 70px;
   }
-  .contactSection {
-    min-height: 30vh;
+  .backgroundImg {
+    width: 350px;
   }
-  .contactButton {
-    width: 150px;
-    padding: 15px;
-    font-size: 15px;
-  }
-}
-@media (min-width: 481px) and (max-width: 600px) {
   .contactHeading {
     margin-bottom: 20px;
     font-size: 80px;
@@ -138,6 +157,17 @@ h2 {
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
+  .homeBackgroundSection {
+    min-height: 50vh;
+    margin-bottom: 60px;
+  }
+  .homeHeading {
+    font-size: 80px;
+    line-height: 70px;
+  }
+  .backgroundImg {
+    width: 400px;
+  }
   .contactHeading {
     margin-bottom: 20px;
     font-size: 100px;
@@ -154,6 +184,17 @@ h2 {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
+  .homeBackgroundSection {
+    min-height: 80vh;
+    margin-bottom: 60px;
+  }
+  .homeHeading {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .backgroundImg {
+    width: 500px;
+  }
   .contactHeading {
     font-size: 140px;
     line-height: 120px;
@@ -166,6 +207,19 @@ h2 {
     padding: 15px;
     font-size: 17px;
     margin-bottom: 30px;
+  }
+}
+@media(min-width: 1025px) and (max-width: 1200px) {
+  .homeBackgroundSection {
+    min-height: 100vh;
+    margin-bottom: 60px;
+  }
+  .homeHeading {
+    font-size: 150px;
+    line-height: 150px;
+  }
+  .backgroundImg {
+    width: 600px;
   }
 }
 
