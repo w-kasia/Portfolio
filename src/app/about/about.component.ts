@@ -14,4 +14,8 @@ export class AboutComponent {
   goToProjects() {
     this.router.navigate(['/projects']);
   }
+
+  goToContactForm() {
+    this.router.navigate(['/contact']);
+  }
 }
