@@ -50,7 +50,7 @@ h2 {
   color: var(--pink-color);
 }
 
-.contactBtn {
+.contactButton {
   width: 250px;
   padding: 20px;
   border: none;
@@ -63,7 +63,7 @@ h2 {
   cursor: pointer;
 }
 
-.contactBtn:hover {
+.contactButton:hover {
   background-color: var(--white-color);
   color: var(--pink-color);
   transition: all 0.8s ease;
@@ -79,7 +79,7 @@ h2 {
   .contactSection {
     min-height: 30vh;
   }
-  .contactBtn {
+  .contactButton {
     width: 100px;
     padding: 10px;
     font-size: 14px;
@@ -95,7 +95,7 @@ h2 {
   .contactSection {
     min-height: 30vh;
   }
-  .contactBtn {
+  .contactButton {
     width: 120px;
     padding: 15px;
     font-size: 13px;
@@ -110,7 +110,7 @@ h2 {
   .contactSection {
     min-height: 30vh;
   }
-  .contactBtn {
+  .contactButton {
     width: 150px;
     padding: 15px;
     font-size: 15px;
@@ -125,7 +125,7 @@ h2 {
   .contactSection {
     min-height: 30vh;
   }
-  .contactBtn {
+  .contactButton {
     width: 150px;
     padding: 15px;
     font-size: 15px;
@@ -141,7 +141,7 @@ h2 {
   .contactSection {
     min-height: 40vh;
   }
-  .contactBtn {
+  .contactButton {
     width: 190px;
     padding: 15px;
     font-size: 16px;
@@ -156,7 +156,7 @@ h2 {
   .contactSection {
     min-height: 40vh;
   }
-  .contactBtn {
+  .contactButton {
     width: 200px;
     padding: 15px;
     font-size: 17px;

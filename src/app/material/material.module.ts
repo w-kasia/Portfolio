@@ -6,8 +6,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
-const material = [MatFormFieldModule, MatInputModule, MatButtonModule, MatToolbarModule, MatDialogModule, MatIconModule, MatMenuModule];
+const material = [MatFormFieldModule, MatInputModule, MatButtonModule, MatToolbarModule, MatDialogModule, MatIconModule, MatMenuModule, MatTooltipModule];
 
 @NgModule({
   imports: [material],

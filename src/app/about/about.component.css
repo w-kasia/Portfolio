@@ -1,11 +1,150 @@
 .aboutSection {
   max-width: 100vw;
   min-height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutHeading,
+.skillsHeading,
+.hobbiesHeading,
+.contactHeading {
+  margin-bottom: 35px;
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aboutHeading span,
+.skillsHeading span,
+.contactHeading span {
+  color: var(--pink-color);
+}
+
+.aboutMeContainer {
+  width: 70vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-img {
-  width: 500px;
+.portrait {
+  width: 400px;
+  border-radius: 15px;
+  background-color: var(--white-color);
+}
+
+.descriptionContainer {
+  margin-left: 45px;
+}
+
+.descriptionContainer p {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.projectsBtn {
+  margin-top: 35px;
+  border: none;
+  outline: none;
+  color: var(--pink-color);
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.hardSkillsSection,
+.softSkillsSection,
+.contactSection {
+  width: 70vw;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skillsContainer,
+.hobbiesContainer {
+  padding-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
+
+.skillsContainer p {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid var(--pink-color);
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.8s ease-in-out;
+}
+
+.skillsContainer p:hover {
+  border: none;
+  box-shadow: var(--pink-color) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.skillIcon {
+  width: 80px;
+  filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.skillIcon:hover {
+  filter: invert(100%) sepia(53%) saturate(442%) hue-rotate(26deg) brightness(106%) contrast(106%);
+}
+
+.hobbyIcon {
+  width: 80px;
+  filter: invert(100%) sepia(53%) saturate(442%) hue-rotate(26deg) brightness(106%) contrast(106%);
+  transition: all 0.5s ease-in-out;
+}
+
+.hobbyIcon:hover {
+  filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
+}
+
+.hobbiesSection {
+  min-height: 50vh;
+}
+
+.memePicture {
+  width: 200px;
+  filter: invert(100%) sepia(53%) saturate(442%) hue-rotate(26deg) brightness(106%) contrast(106%);
+}
+
+.contactSection {
+  min-height: 50vh;
+  margin-bottom: 60px;
+}
+
+.contactMeBtn {
+  width: 200px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contactMeBtn:hover {
+  background-color: var(--white-color);
+  color: var(--pink-color);
+  transition: all 0.8s ease;
 }
