@@ -1,7 +1,101 @@
-<div class="aboutSection">
-  <img src="assets/images/portrait-3.png" alt="" class="portrait">
-  <div class="skillsContainer">
+<div class="navigationContainer">
+  <app-navigation></app-navigation>
+</div>
 
+<div class="aboutSection">
+    <h1 class="aboutHeading">Hi, my name is <span>Kasia</span></h1>
+  <div class="aboutMeContainer">
+    <img class="portrait" src="assets/images/aboutme.png" alt="" >
+    <div class="descriptionContainer">
+      <p>I'm a self-taught Frontend Developer based in Warsaw, Poland.</p>
+      <p>I'm passionate about building functional websites that bring ideas to life. With my expertise in frontend development, I can create dynamic and interactive web applications that users will appreciate. I believe in creating apps that provide a seamless and enjoyable experience for every visitor.</p>
+      <p>I'm always on the lookout for new opportunities to expand my horizons and challenge myself. Whether it's through online courses, or books, I'm all about growth mindset.</p>
+      <p>When I'm not coding, you can find me exploring new museums, or getting lost in the pages of a good book.</p>
+      <button class="projectsBtn" (click)="goToProjects()">Check my projects</button>
+    </div>
+  </div>
+  <div class="hardSkillsSection">
+    <h2 class="skillsHeading">Hard <span>skills</span></h2>
+    <div class="skillsContainer">
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>Bootstrap</p>
+      <p>JavaScript</p>
+      <p>TypeScript</p>
+      <p>Angular</p>
+      <p>Angular Material</p>
+      <p>Jasmine</p>
+      <p>Karma</p>
+      <p>Git</p>
+      <p>Github</p>
+      <p>VSC</p>
+    </div>
+    </div>
+    <div class="softSkillsSection">
+      <h3 class="skillsHeading">Soft <span>skills</span></h3>
+      <div class="skillsContainer">
+        <img class="skillIcon" 
+        matTooltip="Communication"
+        matTooltipPosition="above" 
+        matTooltipClass="custom-tooltip"
+        src="assets/images/soft-skills.png" 
+        alt="Icon of communication">
+        <img class="skillIcon" 
+        matTooltip="Teamwork" 
+        matTooltipPosition="above" 
+        matTooltipClass="custom-tooltip" 
+        src="assets/images/collaboration.png" 
+        alt="Icon of teamwork">
+        <img class="skillIcon" 
+        matTooltip="Continuous learning" 
+        matTooltipPosition="above" 
+        matTooltipClass="custom-tooltip" 
+        src="assets/images/knowledge.png" 
+        alt="Icon of continuous learning">
+        <img class="skillIcon" 
+        matTooltip="Adaptability" 
+        matTooltipPosition="above" 
+        matTooltipClass="custom-tooltip" 
+        src="assets/images/adaptation.png" 
+        alt="Icon of adaptability">
+        <img class="skillIcon" 
+        matTooltip="Time management" 
+        matTooltipPosition="below" 
+        matTooltipClass="custom-tooltip" 
+        src="assets/images/time-management.png" 
+        alt="Icon of time management">
+        <img class="skillIcon" 
+        matTooltip="Organizational" 
+        matTooltipPosition="below" 
+        matTooltipClass="custom-tooltip" 
+        src="assets/images/organisation.png" 
+        alt="Icon of organizational">
+        <img class="skillIcon" 
+        matTooltip="Problem-solving" 
+        matTooltipPosition="below" 
+        matTooltipClass="custom-tooltip" 
+        src="assets/images/solution.png" 
+        alt="Icon of problem-solving">
+        <img class="skillIcon" 
+        matTooltip="Stress management" 
+        matTooltipPosition="below" 
+        matTooltipClass="custom-tooltip" 
+        src="assets/images/stress-relief.png" 
+        alt="Icon of stress management">
+      </div>
+    </div>
+  <div class="hobbiesSection">
+    <h4 class="hobbiesHeading">Hobbies</h4>
+      <div class="hobbiesContainer">
+        <img class="hobbyIcon" src="assets/images/open-book.png" alt="Icon of book">
+        <img class="hobbyIcon" src="assets/images/museum.png" alt="Icon of museum">
+        <img class="hobbyIcon" src="assets/images/culture.png" alt="Icon of theatre">
+        <img class="hobbyIcon" src="assets/images/music-note.png" alt="Icon of music notes">
+      </div>
+  </div>
+  <div class="contactSection">
+    <h4 class="contactHeading">Let's code our way to <span>success</span> together!</h4>
+    <button class="contactMeBtn" type="button">Let's talk</button>
   </div>
 </div>
 
