@@ -107,7 +107,8 @@
 }
 
 .hobbiesSection {
-  min-height: 40vh;
+  min-height: 50vh;
+  margin-top: 40px;
 }
 
 .hobbyIcon {
