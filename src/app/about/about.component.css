@@ -121,11 +121,6 @@
   filter: invert(23%) sepia(53%) saturate(7238%) hue-rotate(316deg) brightness(101%) contrast(101%);
 }
 
-.memePicture {
-  width: 200px;
-  filter: invert(100%) sepia(53%) saturate(442%) hue-rotate(26deg) brightness(106%) contrast(106%);
-}
-
 .contactSection {
   min-height: 50vh;
   margin-bottom: 60px;
@@ -148,4 +143,307 @@
   background-color: var(--white-color);
   color: var(--pink-color);
   transition: all 0.8s ease;
+}
+
+@media (max-width: 320px) {
+  .aboutSection {
+    padding-top: 20px;
+  }
+  .aboutHeading,
+  .skillsHeading,
+  .hobbiesHeading,
+  .contactHeading {
+    margin-bottom: 10px;
+    font-size: 27px;
+  }
+  .aboutMeContainer {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .portrait {
+    max-width: 200px;
+  }
+  .descriptionContainer {
+    padding-top: 15px;
+    margin-left: 0px;
+  }
+  .descriptionContainer p {
+    font-size: 13px;
+  }
+  .projectsBtn {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  .hardSkillsSection,
+  .softSkillsSection,
+  .contactSection {
+    width: 90vw;
+    min-height: 50vh;
+  }
+  .skillsContainer,
+  .hobbiesContainer {
+    padding-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .skillsContainer p {
+    width: 100px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .soft {
+    gap: 40px;
+  }
+  .hobbies {
+    gap: 30px;
+  }
+  .skillIcon {
+    width: 50px;
+  }
+  .hobbiesSection {
+    min-height: 30vh;
+    margin-top: 30px;
+  }
+  .hobbyIcon {
+    width: 50px;
+  }
+  .contactSection {
+    min-height: 30vh;
+    margin-bottom: 0px;
+  }
+  .contactMeBtn {
+    width: 100px;
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  .aboutSection {
+    padding-top: 20px;
+  }
+  .aboutHeading,
+  .skillsHeading,
+  .hobbiesHeading,
+  .contactHeading {
+    margin-bottom: 15px;
+    font-size: 38px;
+  }
+  .aboutMeContainer {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .portrait {
+    max-width: 250px;
+  }
+  .descriptionContainer {
+    padding-top: 15px;
+    margin-left: 0px;
+  }
+  .descriptionContainer p {
+    font-size: 14px;
+  }
+  .projectsBtn {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  .hardSkillsSection,
+  .softSkillsSection,
+  .contactSection {
+    width: 90vw;
+    min-height: 60vh;
+  }
+  .skillsContainer,
+  .hobbiesContainer {
+    padding-top: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .skillsContainer p {
+    width: 150px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .soft {
+    gap: 30px;
+  }
+  .hobbies {
+    gap: 20px;
+  }
+  .skillIcon {
+    width: 60px;
+  }
+  .hobbiesSection {
+    min-height: 40vh;
+    margin-top: 30px;
+  }
+  .hobbyIcon {
+    width: 60px;
+  }
+  .contactSection {
+    min-height: 40vh;
+    margin-bottom: 0px;
+  }
+  .contactMeBtn {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .aboutSection {
+    padding-top: 0px;
+  }
+  .aboutHeading,
+  .skillsHeading,
+  .hobbiesHeading,
+  .contactHeading {
+    margin-bottom: 15px;
+    font-size: 45px;
+  }
+  .aboutMeContainer {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .portrait {
+    max-width: 300px;
+  }
+  .descriptionContainer {
+    padding-top: 15px;
+    margin-left: 0px;
+  }
+  .descriptionContainer p {
+    font-size: 15px;
+  }
+  .projectsBtn {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+  .hardSkillsSection,
+  .contactSection {
+    width: 90vw;
+    min-height: 60vh;
+  }
+  .softSkillsSection {
+    min-height: 40vh;
+  }
+  .skillsContainer,
+  .hobbiesContainer {
+    padding-top: 30px;
+    gap: 20px;
+  }
+  .skillsContainer p {
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .hard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .soft {
+    gap: 35px;
+  }
+  .skillIcon {
+    width: 70px;
+  }
+  .hobbiesSection {
+    min-height: 30vh;
+    margin-top: 30px;
+  }
+  .hobbyIcon {
+    width: 70px;
+  }
+  .contactSection {
+    min-height: 30vh;
+    margin-bottom: 40px;
+  }
+  .contactMeBtn {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .aboutSection {
+    padding-top: 0px;
+  }
+  .aboutHeading,
+  .skillsHeading,
+  .hobbiesHeading,
+  .contactHeading {
+    margin-bottom: 15px;
+    font-size: 60px;
+  }
+  .aboutMeContainer {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .portrait {
+    max-width: 400px;
+  }
+  .descriptionContainer {
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .hardSkillsSection,
+  .contactSection {
+    width: 90vw;
+    min-height: 50vh;
+  }
+  .softSkillsSection {
+    min-height: 40vh;
+  }
+  .skillsContainer,
+  .hobbiesContainer {
+    padding-top: 30px;
+    gap: 20px;
+  }
+  .skillsContainer p {
+    width: 220px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .hard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .soft {
+    gap: 35px;
+  }
+  .skillIcon {
+    width: 70px;
+  }
+  .hobbiesSection {
+    min-height: 30vh;
+    margin-top: 30px;
+  }
+  .hobbyIcon {
+    width: 70px;
+  }
+  .contactSection {
+    min-height: 30vh;
+    margin-bottom: 40px;
+  }
+  .contactMeBtn {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1170px) {
+  .hardSkillsSection {
+    min-height: 60vh;
+  }
+  .softSkillsSection,
+  .contactSection {
+    min-height: 50vh;
+  }
+  .hobbiesSection {
+    min-height: 40vh;
+  }
+  .hard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skillsContainer {
+    gap: 20px;
+  }
 }

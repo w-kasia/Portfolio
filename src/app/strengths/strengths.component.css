@@ -24,15 +24,12 @@
 .strengthsContainer {
   width: 90vw;
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 20px;
   justify-content: center;
 }
 
 .strengthContainer {
-  /* width: 400px;
-  max-width: 100%; */
   height: 360px;
   padding: 15px;
   border: 1px solid rgb(201, 198, 198);
