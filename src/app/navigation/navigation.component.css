@@ -82,7 +82,7 @@ button {
   color: var(--black-color);
 }
 
-::ng-deep .mat-menu-panel {
+::ng-deep .mat-mdc-menu-panel {
   padding-top: 30px;
 }
 
