@@ -144,6 +144,10 @@ mat-sidenav {
 }
 
 @media (max-width: 900px) {
+  .logo {
+    font-size: 18px;
+    font-weight: 500;
+  }
   .hamburgerNavbar {
     visibility: visible;
   }
