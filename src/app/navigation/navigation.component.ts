@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent {
+  opened: boolean = false;
 
   constructor(public router: Router) {}
+
 }
