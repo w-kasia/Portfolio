@@ -68,6 +68,9 @@
 
 .projectContainer:hover .learnMoreBtn {
   background-color: var(--white-color);
+}
+
+.projectContainer:hover .learnMoreLink  {
   color: var(--black-color);
 }
 
@@ -126,9 +129,13 @@
   padding: 15px;
   border: 2px solid var(--pink-color);
   background-color: transparent;
-  color: var(--white-color);
   font-size: 15px;
   cursor: pointer;
+}
+
+.learnMoreLink {
+  color: var(--white-color);
+  text-decoration: none;
 }
 
 @media (max-width: 320px) {

@@ -13,7 +13,7 @@
 
 .logo {
   font-family: var(--ff-secondary);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 900;
   text-transform: lowercase;
   text-transform: capitalize;
@@ -30,6 +30,7 @@ button {
 
 .menuItem {
   text-decoration: none;
+  color: var(--white-color)!important;
 }
 
 .menuItem:hover {
@@ -62,21 +63,6 @@ button {
   width: 40px;
 }
 
-.hamburgerMenu {
-  display: none;
-  position: relative;
-}
-
-.hamburgerIcon {
-  position: absolute;
-  right: 10px;
-  top: 0;
-}
-
-.menuBtn {
-  color: var(--black-color);
-}
-
 .CVdownload {
   text-decoration: none;
   color: var(--black-color);
@@ -86,11 +72,88 @@ button {
   padding-top: 30px;
 }
 
+/*Styles for hamburger menu on smaller devices*/
+
+.hamburgerNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  visibility: none;
+}
+
+.logoContainer {
+  position: absolute;
+  left: 18px;
+  top: 15px;
+}
+
+.hamburgerMenuLogo {
+  margin-left: 30px;
+}
+
+mat-sidenav-container {
+  width: 30px;
+  display: none;
+  background-color: transparent;
+  z-index: 10000;
+  position: absolute;
+  right: 18px;
+ top: 10px;
+}
+
+.hamburgerMenuBtn {
+  display: none;
+}
+
+mat-sidenav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: none;
+  background-color: var(--black-color);
+}
+
+.menuContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.listItem {
+  padding: 25px;
+  color: var(--white-color);
+  font-size: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.closeButtonContainer {
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+
+.closeIcon {
+  color: var(--white-color);
+  background-color: transparent;
+  font-size: 30px;
+}
+
 @media (max-width: 900px) {
+  .hamburgerNavbar {
+    visibility: visible;
+  }
   .mat-toolbar{
     display: none;
   }
-  .hamburgerMenu {
+  mat-sidenav-container {
+    display: block;
+  }
+  mat-sidenav {
     display: block;
   }
 }
