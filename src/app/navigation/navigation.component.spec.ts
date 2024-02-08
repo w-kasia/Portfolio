@@ -33,4 +33,14 @@ describe('NavigationComponent', () => {
       expect(link.nativeElement.getAttribute('routerLink')).toBe(expectedLinks[index]);
     });
     });
+
+  it('should have the correct router links on small devices', () => {
+    const routerLinksOnSmallDevices = fixture.debugElement.queryAll(By.css('.listItem'));
+    const expectedLinksOnSmallDevices = ['/home', '/about', '/projects', '/contact', null];
+    expect(routerLinksOnSmallDevices.length).toBe(expectedLinksOnSmallDevices.length);
+
+    routerLinksOnSmallDevices.forEach((link, index) => {
+      expect(link.nativeElement.getAttribute('routerLink')).toBe(expectedLinksOnSmallDevices[index]);
+    });
+    });
 });

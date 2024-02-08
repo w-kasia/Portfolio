@@ -27,12 +27,14 @@ button {
   text-transform: uppercase;
 }
 
-.menuItem {
+.menuItem,
+.menuItemOnSmallDevice {
   text-decoration: none;
   color: var(--white-color)!important;
 }
 
-.menuItem:hover {
+.menuItem:hover,
+.menuItemOnSmallDevice:hover {
   color: var(--pink-color);
   transition: color 0.8s ease;
 }
@@ -91,13 +93,13 @@ button {
 }
 
 mat-sidenav-container {
+  position: absolute;
+  right: 18px;
+  top: 10px;
   width: 30px;
   display: none;
   background-color: transparent;
   z-index: 10000;
-  position: absolute;
-  right: 18px;
- top: 10px;
 }
 
 .hamburgerMenuBtn {

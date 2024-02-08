@@ -31,14 +31,14 @@
 <div class="hamburgerNavbar">
   <div class="logoContainer">
     <button>
-      <a class="menuItem logo" mat-button routerLink="/home">Katarzyna Waszczuk</a>
+      <a class="menuItemOnSmallDevice logo" mat-button routerLink="/home">Katarzyna Waszczuk</a>
     </button>
   </div>
   <mat-sidenav-container>
     <div>
       <button class="hamburgerMenuBtn" mat-icon-button aria-label="Icon-button with menu icon" class="menuBtn"
         (click)="opened=!opened">
-        <mat-icon class="menuIcon">menuIcon</mat-icon>
+        <mat-icon class="menuIcon">menu</mat-icon>
       </button>
     </div>
     <mat-sidenav mode="over" [(opened)]="opened">
