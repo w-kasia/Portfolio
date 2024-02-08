@@ -75,9 +75,8 @@ h2 {
 
 @media (max-width: 320px) {
   .homeBackgroundSection {
-  min-height: 30vh;
+  min-height: 15vh;
   margin-bottom: 0px;
-  box-shadow: 0px 0px 0px 0px;
   }
   .homeHeading {
   font-size: 40px;
@@ -85,7 +84,7 @@ h2 {
   line-height: 50px;
   }
   .backgroundImg {
-    display: none;
+    max-width: 300px;
   }
   .contactHeading {
     margin-bottom: 20px;
