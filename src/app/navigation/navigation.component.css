@@ -35,7 +35,7 @@ button {
 
 .menuItem:hover,
 .menuItemOnSmallDevice:hover {
-  color: var(--pink-color);
+  color: var(--pink-color)!important;
   transition: color 0.8s ease;
 }
 
@@ -56,6 +56,7 @@ button {
 }
 
 .contactBtn:hover {
+  color: var(--pink-color);
   background-color: var(--white-color);
   transition: all 0.8s ease;
 }
@@ -86,10 +87,6 @@ button {
   position: absolute;
   left: 18px;
   top: 15px;
-}
-
-.hamburgerMenuLogo {
-  margin-left: 30px;
 }
 
 mat-sidenav-container {
@@ -130,6 +127,11 @@ mat-sidenav {
   font-size: 26px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.listItem:hover {
+  color: var(--pink-color);
+  transition: all 0.5s ease;
 }
 
 .closeButtonContainer {
