@@ -28,6 +28,8 @@ The main aim of this project was to showcase my skills, and projects in a visual
 
 💻📱The website is designed to be fully responsive. 
 
+
 🚀This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+
 
 👉If you have any suggestions, feel free to contact me via email: kwaszczuk.contact@gmail.com
