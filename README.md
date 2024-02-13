@@ -24,7 +24,8 @@ The main aim of this project was to showcase my skills, and projects in a visual
 💻<b>Projects</b></br>
 📨<b>Contact</b></br>
 🦶<b>Footer</b>
-
+</br>
+</br>
 
 💻📱The website is designed to be fully responsive. 
 
