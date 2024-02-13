@@ -23,7 +23,7 @@ The main aim of this project was to showcase my skills, and projects in a visual
 👱‍♀️<b>About</b></br>
 💻<b>Projects</b></br>
 📨<b>Contact</b></br>
-🦶<b>Footer</b></br>
+🦶<b>Footer</b>
 
 
 💻📱The website is designed to be fully responsive. 
