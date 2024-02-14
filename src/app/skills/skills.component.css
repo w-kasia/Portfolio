@@ -23,18 +23,25 @@
 
 img {
   width: 70px;
-  /* animation: moveUpDown 6s infinite linear; */
 }
 
-/* @keyframes moveUpDown {
+.fadeInTop {
+  -webkit-animation: fadeInTop 1.2s both;
+  -moz-animation: fadeInTop 1.2s both;
+  -o-animation: fadeInTop 1.2s both;
+  animation: fadeInTop 1.2s both;
+}
+
+@keyframes fadeInTop {
   0% {
-    transform: translateY(0);
+    opacity: 0;
+    transform: translateY(-200px);
   }
   100% {
-    transform: translateY(15px);
-    }
-} */
-
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @media (max-width: 320px) {
   .skillsContainer {
