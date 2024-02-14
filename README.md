@@ -1,27 +1,36 @@
-# Portfolio
+<h1>Portfolio</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+<h4>🌐https://w-kasia.github.io/Portfolio/</h4>
 
-## Development server
+<img src="https://github.com/w-kasia/Portfolio/assets/121196574/e8830228-03a4-46b1-affc-49fde07a94ae" width="800">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h4>🎯What was my main aim?</h4>
+The main aim of this project was to showcase my skills, and projects in a visually appealing and organized manner. 
 
-## Code scaffolding
+<h4>🛠️Tech Stack</h4>
+✔️HTML</br>
+✔️CSS</br>
+✔️Typescript</br>
+✔️Angular</br>
+✔️Angular Material</br>
+✔️Firebase</br>
+✔️Jasmine</br>
+✔️Karma
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h4>🧩What sections will you find in that project?</h4>
+🧭<b>Navigation</b></br>
+🏠<b>Home</b></br>
+👱‍♀️<b>About</b></br>
+💻<b>Projects</b></br>
+📨<b>Contact</b></br>
+🦶<b>Footer</b>
+</br>
+</br>
 
-## Build
+💻📱The website is designed to be fully responsive. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+🚀This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+👉If you have any suggestions, feel free to contact me via email: kwaszczuk.contact@gmail.com
