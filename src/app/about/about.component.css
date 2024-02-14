@@ -115,6 +115,7 @@
   width: 80px;
   filter: invert(100%) sepia(53%) saturate(442%) hue-rotate(26deg) brightness(106%) contrast(106%);
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .hobbyIcon:hover {
@@ -143,6 +144,24 @@
   background-color: var(--white-color);
   color: var(--pink-color);
   transition: all 0.8s ease;
+}
+
+.fadeInTop {
+  -webkit-animation: fadeInTop 1.2s both;
+  -moz-animation: fadeInTop 1.2s both;
+  -o-animation: fadeInTop 1.2s both;
+  animation: fadeInTop 1.2s both;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 320px) {
