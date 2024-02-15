@@ -13,7 +13,7 @@
 
 .logo {
   font-family: var(--ff-secondary);
-  font-size: 25px;
+  font-size: 20px;
   text-transform: lowercase;
   text-transform: capitalize;
 }
@@ -40,8 +40,8 @@ button {
 }
 
 .menuItemsContainer {
-  width: 300px;
-  border: 2px solid var(--pink-color);
+  width: 350px;
+  border: 1px solid rgb(202, 197, 197);
   background-color: var(--black-color);
   text-align: center;
   z-index: 1;
@@ -50,7 +50,7 @@ button {
 .contactBtn {
   padding: 20px;
   margin-right: 60px;
-  border-radius: 0;
+  border-radius: 0px;
   background-color: var(--pink-color);
   font-weight: bold;
 }
