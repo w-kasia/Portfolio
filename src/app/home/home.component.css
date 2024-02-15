@@ -74,9 +74,6 @@ h2 {
 }
 
 .fadeInLeft {
-  -webkit-animation: fadeInLeft 1.2s both;
-  -moz-animation: fadeInLeft 1.2s both;
-  -o-animation: fadeInLeft 1.2s both;
   animation: fadeInLeft 1.2s both;
 }
 
