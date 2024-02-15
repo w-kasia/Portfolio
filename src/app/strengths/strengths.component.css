@@ -71,6 +71,21 @@
   font-size: 16px;
 }
 
+.fadeInTop {
+  animation: fadeInTop 1.2s both;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 320px) {
   .strengthsSection {
     min-height: 80vh;
