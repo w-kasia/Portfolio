@@ -8,15 +8,15 @@
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <mat-form-field class="custom-form-field" appearance="outline">
       <mat-label>Name</mat-label>
-      <input class="form-control" matInput type="text" id="name" formControlName="name" placeholder="Name" required>
+      <input class="form-control" matInput type="text" label="name" id="name" formControlName="name" placeholder="Name" required>
     </mat-form-field>
     <mat-form-field class="custom-form-field" appearance="outline">
       <mat-label>Email</mat-label>
-      <input class="form-control" matInput type="email" id="email" formControlName="email" placeholder="Email" required>
+      <input class="form-control" matInput type="email" label="email" id="email" formControlName="email" placeholder="Email" required>
     </mat-form-field>
     <mat-form-field class="custom-form-field" appearance="outline">
       <mat-label>Message</mat-label>
-      <textarea class="form-control" matInput type="text" id="message" formControlName="message"  placeholder="Message" required></textarea>
+      <textarea class="form-control" matInput type="text" label="message" id="message" formControlName="message"  placeholder="Message" required></textarea>
     </mat-form-field>
     <button class="submitBtn" type="submit" [disabled]="!contactForm.valid" aria-label="Submit button" (click)="openDialog('0ms', '0ms')">Send
     </button>
