@@ -35,7 +35,6 @@ export class ContactComponent implements OnInit{
   }
 
   onSubmit() {
-    console.log('submitted');
     this.saveData();
     this.contactForm.reset();
   }
