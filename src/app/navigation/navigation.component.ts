@@ -10,5 +10,4 @@ export class NavigationComponent {
   opened: boolean = false;
 
   constructor(public router: Router) {}
-
 }
